@@ -2,6 +2,10 @@
 
 A Docker solution for Jenkins on Azure App Service for Containers. 
 
+Jenkins is a self-contained, open source automation server which can be used 
+to automate all sorts of tasks related to building, testing, and delivering 
+or deploying software.
+
 - [Overview](#overview)
 - [Base image](#base-image)
 - [SSH support](#ssh-support)
@@ -29,7 +33,7 @@ https://hub.docker.com/r/jenkins/jenkins.
 
 `FROM jenkins/jenkins:lts`
 
-This is a fully functional [Jenkins server](https://jenkins.io/).
+This is a fully functional [Jenkins instance](https://jenkins.io/).
 
 <a id="ssh"></a>
 ## SSH support
